@@ -1,14 +1,10 @@
 ## 介绍
-[![GitHub Repo stars](https://img.shields.io/github/stars/chenshuai2144/openapi2typescript?style=social)](https://github.com/chenshuai2144/openapi2typescript)
-[![npm (scoped)](https://img.shields.io/npm/v/@umijs/openapi)](https://www.npmjs.com/package/@umijs/openapi)
-![GitHub tag (latest SemVer pre-release)](https://img.shields.io/github/v/tag/chenshuai2144/openapi2typescript?include_prereleases)
 
 根据 [OpenApi3](https://swagger.io/blog/news/whats-new-in-openapi-3-0/) 文档生成 request 请求代码。
 
-如果你使用 [umi](https://umijs.org) ,你可以使用[@umijs/plugin-openapi](https://www.npmjs.com/package/@umijs/plugin-openapi) 插件。
 ## 使用
 ```bash
-npm i --save-dev @umijs/openapi
+npm i --save-dev @lz-ui/openapi
 ```
 在项目根目录新建 ```openapi2ts.config.ts``` 或者 ```.openapi2tsrc.ts```
 > 配置文件还支持 ***openapi2ts.config.ts***, ***.openapi2tsrc.json*** 等格式，参考 [cosmiconfig](https://github.com/cosmiconfig/cosmiconfig?tab=readme-ov-file#cosmiconfig)
